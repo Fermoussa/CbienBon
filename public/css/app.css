@@ -155,13 +155,29 @@ body {
 .carteEvents1 {
   height: 55vh;
   width: 92%;
+  padding-top: 3%;
   background-color: blue;
+  display: flex;
+  flex-direction: row;
 }
 
 .carteEvents2 {
   height: 55vh;
   width: 92%;
   background-color: orangered;
+  margin-left: 4%;
+}
+
+.carteEvents3 {
+  height: 55vh;
+  width: 92%;
+  background-color: palevioletred;
+  margin-left: 4%;
+}
+
+.contentImgEvents {
+  background-image: url(../../../public/img/event-birthday.jpg);
+  background-size: cover;
 }
 
 /*!
