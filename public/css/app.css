@@ -101,10 +101,23 @@ body {
   margin-bottom: 5%;
 }
 
+.numCarte {
+  color: rgb(197, 164, 104);
+}
+
 .contentCarteWhy {
   display: flex;
   flex-direction: row;
   width: 100%;
+}
+
+.carteWhy:hover {
+  background-color: rgb(197, 164, 104);
+  color: white;
+  padding-top: 2%;
+}
+.carteWhy:hover .numCarte {
+  color: white;
 }
 
 /*!
