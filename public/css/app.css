@@ -1,4 +1,23 @@
 @charset "UTF-8";
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.CBIENBON {
+  width: 30%;
+}
+
+.btnBookTable {
+  width: 30%;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
