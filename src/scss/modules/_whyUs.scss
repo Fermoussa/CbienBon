@@ -2,8 +2,36 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(10,9,8);
+    padding-top: 3%;
 }
+
+.enteteWhy{
+    // background-color: blueviolet;
+    padding-left: 4%;
+}
+
 
 .titreWhy{
     color: rgb(197,164,104);
+}
+
+.textGris{
+    color: rgb(179, 179, 179);
+}
+
+.carteWhy{
+    background-color: rgb(24,22,20);
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+
+}
+
+.contentCarteWhy{
+    display: flex;
+    flex-direction: row;
+    // background-color: green;
+    width: 100%;
 }
