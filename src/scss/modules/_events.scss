@@ -1,6 +1,26 @@
 .events{
     width: 100%;
     height: 70vh;
-    background-image: url(../../../public/img/events-bg.jpg);
-    background-size: cover;
+    // background-color: green;
+}
+
+.imgFondEvents{
+    width: 100%;
+    height: 70vh;
+    filter: brightness(50%);
+}
+
+.fondEvents{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+}
+
+.contentEvent{
+    width: 100%;
+    height: 70vh;
+}
+
+.enteteEvents{
+    padding-left: 4%;
 }
