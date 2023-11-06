@@ -73,6 +73,16 @@ body {
     background-color: red;
   }
 }
+.whyUs {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(10, 9, 8);
+}
+
+.titreWhy {
+  color: rgb(197, 164, 104);
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
