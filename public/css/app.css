@@ -164,6 +164,13 @@ body {
 
 .titreCaroussell {
   color: rgb(197, 164, 104);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.prixEvents {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .imageEvents {
