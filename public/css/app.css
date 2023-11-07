@@ -273,6 +273,39 @@ body {
   align-items: center;
 }
 
+.enteteReservation {
+  padding-left: 4%;
+  padding-top: 3%;
+  width: 100%;
+}
+
+.titreReservation {
+  color: rgb(197, 164, 104);
+}
+
+.textGris {
+  color: rgb(179, 179, 179);
+}
+
+.contentForumlaire {
+  width: 95%;
+  justify-content: space-between;
+  padding-left: 4%;
+}
+
+.ligne1 {
+  margin-bottom: 2%;
+}
+
+#inputPassword2 {
+  background-color: black;
+  border: solid 0.5px rgb(197, 164, 104);
+}
+
+#inputPassword2::placeholder {
+  color: rgb(197, 164, 104);
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
