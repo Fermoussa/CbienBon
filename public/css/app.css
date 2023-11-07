@@ -123,74 +123,66 @@ body {
 
 .events {
   width: 100%;
-  height: 70vh;
+  background-image: url(../../../public/img/events-bg.jpg);
+  display: flex;
 }
 
 .imgFondEvents {
   width: 100%;
-  height: 70vh;
   filter: brightness(50%);
-}
-
-.fondEvents {
   z-index: -1;
   position: absolute;
-  width: 100%;
 }
 
-.contentEvent {
-  width: 100%;
-  height: 70vh;
+.contentEvents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
 }
 
 .enteteEvents {
   padding-left: 4%;
-}
-
-.contentcarroussel {
-  width: 100%;
-  height: 60vh;
-}
-
-.carteEvents1 {
-  height: 55vh;
-  width: 92%;
   padding-top: 3%;
-  display: flex;
-  flex-direction: row;
+  width: 100%;
 }
 
-.carteEvents2 {
-  height: 55vh;
-  width: 92%;
-  margin-left: 4%;
-}
-
-.carteEvents3 {
-  height: 55vh;
-  width: 92%;
-  background-color: palevioletred;
-  margin-left: 4%;
-}
-
-.contentImgEvents {
-  background-image: url(../../../public/img/event-birthday.jpg);
-  background-size: cover;
-}
-
-.soustitreEvents {
+.titreWhy {
   color: rgb(197, 164, 104);
 }
 
-.contentImgEvents2 {
-  background-image: url(../../../public/img/event-private.jpg);
-  background-size: cover;
+.textGris {
+  color: rgb(179, 179, 179);
+}
+
+.contentCaroussel {
+  background-color: cadetblue;
+  width: 92%;
+  height: 100%;
+}
+
+.titreCaroussell {
+  color: rgb(197, 164, 104);
+}
+
+.imageEvents {
+  padding-top: 3%;
+}
+
+.texteEvents {
+  padding-top: 3%;
+  background-color: green;
 }
 
 .menu {
   background-color: rgb(24, 22, 20);
   display: flex;
   flex-direction: column;
+}
+
+.enteteMenu {
+  padding-top: 3%;
+  padding-left: 5%;
 }
 
 .contentmenu {

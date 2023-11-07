@@ -1,71 +1,61 @@
 .events{
     width: 100%;
-    height: 70vh;
+    background-image: url(../../../public/img/events-bg.jpg);
     // background-color: green;
+    display: flex;
+    
 }
 
 .imgFondEvents{
-    width: 100%;
-    height: 70vh;
-    filter: brightness(50%);
+   width: 100%;
+//    height: 70vh;
+   filter: brightness(50%);
+   z-index: -1;
+   position: absolute;
 }
 
-.fondEvents{
-    z-index: -1;
-    position: absolute;
-    width: 100%;
+.contentEvents{
+    // height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
 }
 
-.contentEvent{
-    width: 100%;
-    height: 70vh;
-}
 
 .enteteEvents{
     padding-left: 4%;
-}
-
-.contentcarroussel{
-    width: 100%;
-    height: 60vh;
-    // background-color: red;
-}
-
-.carteEvents1{
-    height: 55vh;
-    width: 92%;
     padding-top: 3%;
+    width: 100%;
     // background-color: blue;
-    // overflow: hidden;
-    display: flex;
-    flex-direction: row;
+    // background-color: chocolate;
 }
 
-.carteEvents2{
-    height: 55vh;
+
+.titreWhy{
+    color: rgb(197,164,104);
+}
+
+.textGris{
+    color: rgb(179, 179, 179);
+}
+
+.contentCaroussel{
+    background-color: cadetblue;
     width: 92%;
-    // background-color: orangered;
-    margin-left: 4%;
+    height: 100%;
 }
 
-.carteEvents3{
-    height: 55vh;
-    width: 92%;
-    background-color: palevioletred;
-    margin-left: 4%;
-}
-
-.contentImgEvents{
-    background-image: url(../../../public/img/event-birthday.jpg);
-    background-size: cover;
-}
-
-.soustitreEvents{
+.titreCaroussell{
     color: $or;
 }
 
 
-.contentImgEvents2{
-    background-image: url(../../../public/img/event-private.jpg);
-    background-size: cover;
+.imageEvents{
+  padding-top: 3%;
+}
+
+.texteEvents{
+    padding-top: 3%;
+    background-color: green;
 }
