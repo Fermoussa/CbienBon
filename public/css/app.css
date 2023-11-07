@@ -163,7 +163,6 @@ body {
 .carteEvents2 {
   height: 55vh;
   width: 92%;
-  background-color: orangered;
   margin-left: 4%;
 }
 
@@ -181,6 +180,84 @@ body {
 
 .soustitreEvents {
   color: rgb(197, 164, 104);
+}
+
+.contentImgEvents2 {
+  background-image: url(../../../public/img/event-private.jpg);
+  background-size: cover;
+}
+
+.menu {
+  background-color: rgb(24, 22, 20);
+  display: flex;
+  flex-direction: column;
+}
+
+.contentmenu {
+  height: 50vh;
+}
+
+.contentMenu {
+  background-color: rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.boutonNaviguer {
+  background-color: green;
+  color: yellow;
+}
+
+.menuAll {
+  width: 80vw;
+  height: 75vh;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.ligne {
+  height: 13vh;
+  width: 100%;
+  background-color: red;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
+
+.plat {
+  width: 50%;
+  height: 100px;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+}
+
+.contentImgPlat {
+  width: 20%;
+  height: 100%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textPlat {
+  width: 78%;
+  height: 100%;
+  background-color: darkred;
+}
+
+.imgPlat {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  border: 3px solid gray;
 }
 
 /*!

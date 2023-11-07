@@ -36,6 +36,7 @@
     width: 92%;
     padding-top: 3%;
     // background-color: blue;
+    // overflow: hidden;
     display: flex;
     flex-direction: row;
 }
@@ -43,7 +44,7 @@
 .carteEvents2{
     height: 55vh;
     width: 92%;
-    background-color: orangered;
+    // background-color: orangered;
     margin-left: 4%;
 }
 
@@ -61,4 +62,10 @@
 
 .soustitreEvents{
     color: $or;
+}
+
+
+.contentImgEvents2{
+    background-image: url(../../../public/img/event-private.jpg);
+    background-size: cover;
 }
