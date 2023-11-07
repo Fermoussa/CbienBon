@@ -198,7 +198,6 @@ body {
 }
 
 .contentMenu {
-  background-color: rebeccapurple;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -212,8 +211,7 @@ body {
 }
 
 .menuAll {
-  width: 80vw;
-  height: 75vh;
+  width: 93vw;
   background-color: yellow;
   display: flex;
   flex-direction: column;
@@ -247,17 +245,35 @@ body {
   align-items: center;
 }
 
-.textPlat {
-  width: 78%;
+.ContenttextPlat {
+  width: 80%;
   height: 100%;
   background-color: darkred;
+  padding-left: 1%;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
 }
 
 .imgPlat {
-  width: 70%;
-  height: 70%;
+  width: 55%;
+  height: 65%;
   border-radius: 50%;
   border: 3px solid gray;
+}
+
+.prixPlat {
+  color: rgb(197, 164, 104);
+}
+
+.point {
+  border-top: dotted 2px gray;
+  margin-top: 2%;
+}
+
+.descriptionPlat {
+  display: flex;
+  align-items: center;
 }
 
 /*!
