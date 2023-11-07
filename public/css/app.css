@@ -125,6 +125,8 @@ body {
   width: 100%;
   background-image: url(../../../public/img/events-bg.jpg);
   display: flex;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.8);
 }
 
 .imgFondEvents {
@@ -156,7 +158,6 @@ body {
 }
 
 .contentCaroussel {
-  background-color: cadetblue;
   width: 92%;
   height: 100%;
 }
@@ -170,8 +171,8 @@ body {
 }
 
 .texteEvents {
-  padding-top: 3%;
-  background-color: green;
+  padding-top: 4%;
+  padding-left: 2%;
 }
 
 .menu {
