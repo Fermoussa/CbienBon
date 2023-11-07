@@ -182,6 +182,10 @@ body {
   padding-left: 2%;
 }
 
+.carousel-indicators {
+  margin: -60px !important;
+}
+
 .menu {
   background-color: rgb(24, 22, 20);
   display: flex;
