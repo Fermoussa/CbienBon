@@ -322,6 +322,20 @@ body {
   border-radius: 20px;
 }
 
+.Testmonial {
+  background-color: rgb(24, 22, 20);
+}
+
+.enteteTestmonial {
+  padding-left: 4%;
+  padding-top: 3%;
+  width: 100%;
+}
+
+.titretestmonial {
+  color: rgb(197, 164, 104);
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
