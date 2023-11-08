@@ -1,0 +1,22 @@
+.sousMap{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.location{
+    width: 40%;
+}
+
+.contacter{
+    width: 50%;
+}
+
+.contact{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

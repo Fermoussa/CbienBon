@@ -7,6 +7,18 @@
     color: white;
 }
 
+.imgAbout{
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+}
+
+.imgAbout:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+
 .txtAbout{
     // background-color: bisque;
     width: 50%;

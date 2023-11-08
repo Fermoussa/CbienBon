@@ -14,7 +14,7 @@
 
         <img src="./public/img/hero-bg.jpg" alt="" class="imageFondSection1">
 
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
 
             <div class="container-fluid">
 
@@ -43,18 +43,18 @@
                 </div>
 
                 <div class="btnBookTable d-flex justify-content-center">
-                    <button> BOOK A TABLE </button>
+                    <button class="btnSection1" > BOOK A TABLE </button>
                 </div>
 
             </div>
         </nav>
 
         <div class="txtVideo d-flex flex-column">
-            <span class="fs-2"> Welcome to CBIENBON </span>
+            <span class="fs-1 fw-bold"> Welcome to <span class="text-primary"> CBIENBON </span> </span>
             <span> Delivering great food for more than 18 years! </span>
             <br>
             <div class="btnVideo">
-                <button> OUR MENU </button> <button> BOOK A TABLE </button>
+                <button class="btnSection1"> OUR MENU </button> <button class="btnSection1"> BOOK A TABLE </button>
             </div>
         </div>
     </div>
@@ -1049,17 +1049,49 @@
 
 
     <div class="contact bg-black">
+        <!-- d-flex flex-column justify-content-center align-content-center -->
+
         <div class="enteteReservation">
             <span class="text-light"> CONTACT </span> <br>
             <span class="titreReservation fs-2"> Contact Us </span>
         </div>
 
-        <div class="contentMap">
+        <div class="contentMap w-100">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.6935551694583!2d4.338645076500147!3d50.85535875812729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38c275028d3%3A0xc7799151146ebf77!2sMolenGeek!5e0!3m2!1sfr!2sbe!4v1699452023316!5m2!1sfr!2sbe" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
-        <div class="detailMap bg-danger">
-            <p> hello</p>
+        <div class="sousMap">
+
+            <div class="location">
+
+                <div class="detail d-flex gap-4">
+                    <div class="iconeDetail bg">
+                        <i class="fa-solid fa-location-dot bg-primary" style="color: #fcfcfc; font-size: 20px; padding: 10px; border-radius: 50%; "></i>
+                    </div>
+                    <div class="txtDetail">
+                        <p class="text-light">Location:<br> A108 Adam Street, New York, NY 535022
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="detail d-flex gap-4">
+                    <div class="iconeDetail bg">
+                        <i class="fa-solid fa-location-dot bg-primary" style="color: #fcfcfc; font-size: 20px; padding: 10px; border-radius: 50%; "></i>
+                    </div>
+                    <div class="txtDetail">
+                        <p class="text-light">Open Hours:<br> Monday-Saturday:<br>11:00 AM - 2300 PM
+
+                        </p>
+                    </div>
+                </div>
+                <div class="detail">3</div>
+                <div class="detail"></div>
+            </div>
+
+            <div class="contacter bg-danger">
+                contacter
+            </div>
         </div>
     </div>
 
