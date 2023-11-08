@@ -340,28 +340,23 @@ body {
 }
 
 .contentCarouselTestmon {
-  width: 90%;
   height: 100%;
   background-color: crimson;
+  width: 90vw;
 }
 
 .carteMonial {
   background-color: rgb(54, 53, 52);
-  border: 1px solid;
   display: flex;
-  flex-direction: column;
+  border-right: 1px solid black;
   justify-content: center;
   align-items: center;
 }
 
 .txtCarteMonial {
-  padding-left: 5%;
+  padding-left: 3%;
   padding-top: 5%;
   padding-bottom: 10%;
-}
-
-.identiteMonial {
-  background-color: orange;
 }
 
 /*!
