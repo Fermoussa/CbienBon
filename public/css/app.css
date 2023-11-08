@@ -404,6 +404,30 @@ body {
   height: 90%;
 }
 
+.contentChef {
+  background-color: red;
+  width: 80%;
+}
+
+.chef {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chef1 {
+  width: 30%;
+}
+
+.chef2 {
+  width: 30%;
+}
+
+.chef3 {
+  width: 30%;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
