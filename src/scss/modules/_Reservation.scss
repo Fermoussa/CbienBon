@@ -17,19 +17,36 @@
 
 .contentForumlaire{
     width: 95%;
-    justify-content: space-between;
+    display: flex;
     padding-left: 4%;
 }
 
-.ligne1{
+.ligneFormulaire{
     margin-bottom: 2%;
 }
 
 #inputPassword2{
     background-color: black;
     border: solid 0.5px $or;
+    color: white;
 }
 
 #inputPassword2::placeholder{
     color: $or;
+}
+
+.messageFormulaire{
+    background-color: black;
+    border: solid 0.5px $or;
+    color: white;
+}
+
+
+.btnForm{
+    width: 10%;
+    background-color: $or;
+    color: white;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 20px;
 }
