@@ -1,9 +1,13 @@
 .contentChef{
     // background-color: red;
     width: 80%;
-    height: 50vh;
+    
     // display: flex;
     // justify-content: space-between;
+}
+
+.enteteReservation{
+    padding-bottom: 5%;
 }
 
 .chef{
@@ -50,6 +54,17 @@
 }
 
 .chef2:hover{
+    box-shadow: inset 0 0 0 100vw rgba(0,0 ,0, 0.4);
+
+    .textChef{
+        margin-top: 96.5%;
+        opacity: 1;
+    }
+    
+}
+
+
+.chef3:hover{
     box-shadow: inset 0 0 0 100vw rgba(0,0 ,0, 0.4);
 
     .textChef{
