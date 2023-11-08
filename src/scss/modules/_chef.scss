@@ -1,6 +1,7 @@
 .contentChef{
-    background-color: red;
+    // background-color: red;
     width: 80%;
+    height: 50vh;
     // display: flex;
     // justify-content: space-between;
 }
@@ -15,10 +16,45 @@
 
 .chef1{
     width: 30%;
+
+    height: 100%;
+    background-image: url(../../../public/img/chefs/chefs-1.jpg);
+    background-size: cover;
 }
 .chef2{
     width: 30%;
+    height: 100%;
+    background-image: url(../../../public/img/chefs/chefs-2.jpg);
+    background-size: cover;
 }
 .chef3{
     width: 30%;
+    height: 100%;
+    background-image: url(../../../public/img/chefs/chefs-3.jpg);
+    background-size: cover;
+}
+
+.textChef{
+    margin-top: 96.5%;
+    opacity: 0;
+}
+
+.chef1:hover{
+    box-shadow: inset 0 0 0 100vw rgba(0,0 ,0, 0.4);
+
+    .textChef{
+        margin-top: 96.5%;
+        opacity: 1;
+    }
+    
+}
+
+.chef2:hover{
+    box-shadow: inset 0 0 0 100vw rgba(0,0 ,0, 0.4);
+
+    .textChef{
+        margin-top: 96.5%;
+        opacity: 1;
+    }
+    
 }
