@@ -327,12 +327,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 80%;
 }
 
 .enteteTestmonial {
   padding-left: 4%;
   padding-top: 3%;
   width: 100%;
+  padding-bottom: 5%;
 }
 
 .titretestmonial {
@@ -341,7 +343,6 @@ body {
 
 .contentCarouselTestmon {
   height: 100%;
-  background-color: crimson;
   width: 90vw;
 }
 
@@ -351,12 +352,30 @@ body {
   border-right: 1px solid black;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
 }
 
 .txtCarteMonial {
   padding-left: 3%;
   padding-top: 5%;
   padding-bottom: 10%;
+}
+
+.visageMonial {
+  height: 20%;
+  width: 20%;
+  margin-left: 5%;
+  border-radius: 50%;
+  border: 3px solid gray;
+  margin-top: -10%;
+}
+
+.nomPrenom {
+  margin-left: 5%;
+}
+
+.carteIdentite {
+  margin-bottom: 5%;
 }
 
 /*!
