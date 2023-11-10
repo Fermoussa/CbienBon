@@ -1,12 +1,4 @@
 
-
-// .imageFondSection1{
-//     z-index: -1;
-//     position: absolute;
-//     filter: brightness(60%);
-//     width: 100%;
-// }
-
 .section1{
     background-image: url(../../../public/img/hero-bg.jpg);
     background-position: cover;
@@ -14,6 +6,10 @@
     box-shadow: inset 0 0 0 100vw rgba(0,0 ,0, 0.5)
 }
 
+.navbar{
+    background-color: black;
+    color: white;
+}
 
 .txtVideo{
     color: white;
