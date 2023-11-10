@@ -509,6 +509,21 @@ footer {
   background-color: purple;
   border-top: 1px solid rgb(197, 164, 104);
   padding-top: 3%;
+  border-bottom: 1px solid rgb(197, 164, 104);
+  display: flex;
+  justify-content: center;
+}
+
+.elementFooter {
+  background-color: yellow;
+  width: 90%;
+  display: flex;
+}
+
+.col3Footer {
+  width: 20%;
+  border-right: solid 1px black;
+  background-color: green;
 }
 
 /*!
