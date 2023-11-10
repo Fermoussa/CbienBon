@@ -1,14 +1,15 @@
 footer{
-    background-color: purple;
-    border-top: 1px solid $or;
+    // background-color: purple;
+    border-top: 0.5px solid rgb(144, 123, 70);
     padding-top: 3%;
-    border-bottom: 1px solid $or;
+    border-bottom: 0.5px solid rgb(144, 123, 70);
     display: flex;
     justify-content: center;
+    padding-bottom: 3%;
 }
 
 .elementFooter{
-    background-color: yellow;
+    // background-color: blue;
     width: 90%;
     display: flex;
 }
@@ -16,5 +17,35 @@ footer{
 .col3Footer{
     width: 20%;
     border-right: solid 1px black;
-    background-color: green;
+    // background-color: green;
+}
+
+.detailCol3{
+    padding-left: 35%;
+}
+
+.col4footer{
+    // background-color: orange;
+    width: 40%;
+    padding-left: 5%;
+}
+
+.sabonner{
+    position: relative;
+}
+
+.position-absolute{
+    background-color: $or;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.btn1{
+    border: 0;
+    background-color: rgb(24,22,20);
+    border-radius: 15px;
+    color: $or;
+    padding: 5px;
 }
