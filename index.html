@@ -27,22 +27,22 @@
                                 <a class="nav-link text-light" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#">About</a>
+                                <a class="nav-link text-light" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Menu</a>
+                                <a class="nav-link text-light" href="#menu">Menu</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Events</a>
+                                <a class="nav-link text-light" href="#events">Events</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Gallery</a>
+                                <a class="nav-link text-light" href="#gallery">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Chefs</a>
+                                <a class="nav-link text-light" href="#chefs">Chefs</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Contact</a>
+                                <a class="nav-link text-light" href="#contacter">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -51,18 +51,53 @@
             </div>
         </nav>
 
-        <div class="txtVideo d-flex flex-column">
-            <span class="fs-1 fw-bold"> Welcome to <span class="text-primary"> CBIENBON </span> </span>
-            <span> Delivering great food for more than 18 years! </span>
-            <br>
-            <div class="btnVideo">
-                <button class="btnSection1"> OUR MENU </button> <button class="btnSection1"> BOOK A TABLE </button>
+        <div class="txtVideo d-flex flex-row">
+            <div class="txtSection1 d-flex flex-column">
+                <span class="fs-1 fw-bold"> Welcome to <span class="text-primary"> CBIENBON </span> </span>
+                <span> Delivering great food for more than 18 years! </span>
+                <br>
+                <div class="btnVideo">
+                    <button class="btnSection1"> OUR MENU </button> <button class="btnSection1"> BOOK A TABLE </button>
+                </div>
+                <!-- <div class="btnLireVideo bg-danger">
+                    <a href="https://d25ixnv6uinqzi.cloudfront.net/year3/uotw74.3.mp4"  target="_self" class="learn-btn">
+                        <i class="fa-solid fa-play bg-primary"  style="color: white; font-size: 20px; padding: 10px; border-radius: 50%; "></i>
+                    </a> 
+                </div> -->
+            </div>
+            <div class="btnLireVideo rounded-circle">
+                <!-- <a href="https://youtu.be/Ra4wk0JE-q0?si=_7CVwLdWYJzsBeC1"  target="_self" class="learn-btn">
+                    <i class="fa-solid fa-play bg-primary"  style="color: white; font-size: 30px; padding: 25px; border-radius: 50%; "></i>
+                </a>  -->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <i class="fa-solid fa-play bg-primary"  style="color: white; font-size: 30px; padding: 25px; border-radius: 50%; "></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-danger">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                hello
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="txtAbout">
             <p>
             <h4> Voluptatem dignissimos provident quasi corporis<br>voluptates sit assumenda.</h4>
@@ -131,7 +166,7 @@
 
 
 
-    <div class="menu">
+    <div class="menu" id="menu">
 
         <div class="enteteMenu">
             <span class="textGris"> Menu </span> <br>
@@ -510,7 +545,7 @@
 
 
 
-    <div class="events">
+    <div class="events" id="events">
 
 
         <div class="contentEvents w-100">
@@ -623,7 +658,7 @@
 
 
 
-    <div class="Reservation bg-black">
+    <div class="Reservation bg-black" id>
 
         <div class="enteteReservation">
             <span class="text-light"> RESERVATION </span> <br>
@@ -906,7 +941,7 @@
 
     </div>
 
-    <div class="gallery bg-black">
+    <div class="gallery bg-black" id="gallery">
         <div class="enteteReservation">
             <span class="text-light"> GALLERY </span> <br>
             <span class="titreReservation fs-2"> Some photos from Our Restaurant </span>
@@ -975,7 +1010,7 @@
 
 
 
-    <div class="chef bg-black">
+    <div class="chef bg-black" id="chefs">
 
         <div class="enteteReservation">
             <span class="text-light"> CHEFS </span> <br>
@@ -1051,8 +1086,7 @@
     </div>
 
 
-    <div class="contact bg-black">
-        <!-- d-flex flex-column justify-content-center align-content-center -->
+    <div class="contact bg-black" id="contacter">
 
         <div class="enteteReservation">
             <span class="text-light"> CONTACT </span> <br>
@@ -1169,7 +1203,7 @@
                     <p> <i class="fa-solid fa-chevron-right text-primary"></i> Privacy policy</p>
                 </div>
             </div>
-            
+
             <div class="col3Footer text-light d-flex flex-column">
                 <div class="titrecol3">
                     <p class="fw-bold text-center"> Our Services </p>
@@ -1190,13 +1224,18 @@
                     <p> Tamen quem nulla quae legam multos aute sint culpa legam <br>noster magna</p>
                 </div>
                 <div class="sabonner d-flex justify-content-end">
-                    <input type="text" class="w-100 btn1"> <input type="button" value="Subscribe" class="position-absolute">
+                    <input type="text" class="w-100 btn1"> <input type="button" value="Subscribe"
+                        class="position-absolute">
                 </div>
-                
+
             </div>
         </div>
 
     </footer>
+
+    <div class="sousFooter bg-black text-light d-flex justify-content-center align-content-around">
+        <p> © Copyright CBIENBON. All Rights Reserved </p>
+    </div>
 
 
 

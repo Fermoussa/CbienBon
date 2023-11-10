@@ -38,6 +38,13 @@ body {
   color: white;
 }
 
+.btnLireVideo {
+  margin-left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about {
   background-image: url(../../../public/img/about-bg.jpg);
   background-attachment: fixed;
@@ -551,6 +558,10 @@ footer {
   border-radius: 15px;
   color: rgb(197, 164, 104);
   padding: 5px;
+}
+
+.sousFooter {
+  padding: 2%;
 }
 
 /*!
