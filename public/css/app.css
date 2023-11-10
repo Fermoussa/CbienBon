@@ -486,6 +486,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 3%;
 }
 
 .location {
@@ -502,6 +503,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  background-color: purple;
+  border-top: 1px solid rgb(197, 164, 104);
+  padding-top: 3%;
 }
 
 /*!
