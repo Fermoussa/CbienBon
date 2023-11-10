@@ -32,3 +32,25 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
+@media screen and (max-width: 425px) and (max-width: 500px){
+    .txtVideo{
+        flex-direction: column;
+
+        .btnVideo{
+            background-color: red;
+            padding-left: 10%;
+        }
+
+        .btnLireVideo{
+            background-color: greenyellow;
+            margin-left: -20%;
+        }
+    }
+
+    .section1{
+        background-position: right;
+    }
+}
