@@ -71,3 +71,16 @@
 .carousel-indicators{
     margin: -60px !important;
 }
+
+
+@media screen and (min-width: 425px) and (max-width: 500px){
+    .carousel-indicators{
+        // background-color: red;
+        margin-left: 12% !important;
+        width: 80%;
+    }
+
+    .events{
+        padding-bottom: 20%;
+    }
+}

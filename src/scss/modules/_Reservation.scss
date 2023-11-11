@@ -50,3 +50,12 @@
     padding: 5px 15px;
     border-radius: 20px;
 }
+
+
+@media screen and (min-width: 425px) and (max-width: 500px){
+    .ligneFormulaire {
+        margin-bottom: 2%;
+        background-color: red;
+        flex-direction: column;
+    }
+}

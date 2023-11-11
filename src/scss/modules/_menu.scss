@@ -94,3 +94,20 @@
     display: flex;
     align-items: center;
 }
+
+
+@media screen and (min-width: 425px) and (max-width: 500px){
+    .ligne{
+        flex-direction: column;
+
+        .plat{
+            width: 100%;
+        }
+
+        .imgPlat{
+            height: 60%;
+            width: 80%;
+        }
+        
+    }
+}

@@ -169,6 +169,8 @@ body {
   .contentCarteWhy {
     margin-top: 5%;
     flex-direction: column;
+    margin-bottom: 5%;
+    padding: 5%;
   }
 }
 .events {
@@ -236,6 +238,15 @@ body {
   margin: -60px !important;
 }
 
+@media screen and (min-width: 425px) and (max-width: 500px) {
+  .carousel-indicators {
+    margin-left: 12% !important;
+    width: 80%;
+  }
+  .events {
+    padding-bottom: 20%;
+  }
+}
 .menu {
   background-color: rgb(24, 22, 20);
   display: flex;
@@ -323,6 +334,18 @@ body {
   align-items: center;
 }
 
+@media screen and (min-width: 425px) and (max-width: 500px) {
+  .ligne {
+    flex-direction: column;
+  }
+  .ligne .plat {
+    width: 100%;
+  }
+  .ligne .imgPlat {
+    height: 60%;
+    width: 80%;
+  }
+}
 .enteteReservation {
   padding-left: 4%;
   padding-top: 3%;
@@ -372,6 +395,13 @@ body {
   border-radius: 20px;
 }
 
+@media screen and (min-width: 425px) and (max-width: 500px) {
+  .ligneFormulaire {
+    margin-bottom: 2%;
+    background-color: red;
+    flex-direction: column;
+  }
+}
 .Testmonial {
   background-color: rgb(24, 22, 20);
   display: flex;
