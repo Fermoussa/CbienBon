@@ -590,6 +590,9 @@ body {
     width: 100%;
     margin-bottom: 4%;
   }
+  .chef {
+    padding-top: 15%;
+  }
 }
 .sousMap {
   width: 80%;
@@ -597,6 +600,15 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 3%;
+}
+
+.SendMessage {
+  width: 30%;
+  background-color: rgb(197, 164, 104);
+  color: white;
+  border: 0;
+  padding: 5px 15px;
+  border-radius: 20px;
 }
 
 .location {
@@ -615,6 +627,27 @@ body {
   align-items: center;
 }
 
+@media screen and (min-width: 425px) and (max-width: 500px) {
+  .contact {
+    padding-top: 15%;
+  }
+  .sousMap {
+    flex-direction: column;
+  }
+  .sousMap .location {
+    width: 100%;
+    padding-top: 5%;
+  }
+  .contacter {
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+  .SendMessage {
+    width: 50%;
+    margin-left: 23%;
+  }
+}
 footer {
   border-top: 0.5px solid rgb(144, 123, 70);
   padding-top: 3%;
@@ -663,6 +696,46 @@ footer {
   padding: 5px;
 }
 
+.TitreElemFooter {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 425px) and (max-width: 500px) {
+  .elementFooter {
+    flex-direction: column;
+  }
+  .col3Footer {
+    padding-top: 8%;
+    width: 100%;
+    border-right: solid 1px black;
+  }
+  .detailCol3 {
+    padding-left: 0%;
+  }
+  .TitreElemFooter {
+    display: flex;
+    justify-content: left;
+  }
+  .col4footer {
+    width: 100%;
+  }
+  .col4footer .detailCol4 br {
+    display: none;
+  }
+  .col4footer .detailCol4 p {
+    font-size: 10px;
+  }
+  .sabonner {
+    display: none;
+  }
+  .btn1 {
+    display: none;
+  }
+  .position-absolute {
+    display: none;
+  }
+}
 .sousFooter {
   padding: 2%;
 }

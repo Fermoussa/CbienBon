@@ -49,3 +49,57 @@ footer{
     color: $or;
     padding: 5px;
 }
+
+
+.TitreElemFooter{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 425px) and (max-width: 500px){
+    .elementFooter {
+        flex-direction: column;
+    }
+
+    .col3Footer {
+        padding-top: 8%;
+        width: 100%;
+        border-right: solid 1px black;
+    }
+
+    .detailCol3 {
+        padding-left: 0%;
+    }
+
+    .TitreElemFooter{
+        
+        display: flex;
+        justify-content: left;
+    }
+
+    .col4footer{
+        width: 100%;
+
+        .detailCol4{
+            br{
+                display: none;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+
+    .sabonner{
+        display: none;
+    }
+    
+    .btn1{
+        display: none;
+    }
+
+    .position-absolute{
+        display: none;
+    }
+
+}

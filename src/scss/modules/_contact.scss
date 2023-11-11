@@ -5,6 +5,15 @@
     justify-content: space-between;
     margin-top: 3%;
 }
+.SendMessage{
+    width: 30%;
+    background-color: rgb(197, 164, 104);
+    color: white;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
 
 .location{
     width: 40%;
@@ -23,6 +32,28 @@
 }
 
 @media screen and (min-width: 425px) and (max-width: 500px){
-    
+    .contact {
+        padding-top: 15%;
+    }
+
+    .sousMap {
+        flex-direction: column;
+
+        .location {
+            width: 100%;
+            padding-top: 5%;
+        }
+    }
+
+    .contacter {
+        width: 100%;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+
+    .SendMessage {
+        width: 50%;
+        margin-left: 23%;
+    }
 
 }
