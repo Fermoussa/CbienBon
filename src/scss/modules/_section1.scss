@@ -1,17 +1,16 @@
-
-.section1{
+.section1 {
     background-image: url(../../../public/img/hero-bg.jpg);
     background-position: cover;
     background-attachment: fixed;
-    box-shadow: inset 0 0 0 100vw rgba(0,0 ,0, 0.5)
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5)
 }
 
-.navbar{
+.navbar {
     background-color: black;
     color: white;
 }
 
-.txtVideo{
+.txtVideo {
     color: white;
     // background-color: antiquewhite;
     padding-top: 20%;
@@ -19,14 +18,24 @@
     padding-bottom: 23%;
 }
 
-.btnSection1{
-   border-radius: 20px;
-   border: 2px solid $or;
-   padding: 5px 10px;
-   background-color: transparent;
-   color: white;
+.btnSection1 {
+    border-radius: 20px;
+    border: 2px solid $or;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
 }
-.btnLireVideo{
+
+.btnNavbar {
+    border-radius: 20px;
+    border: 2px solid $or;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+}
+
+
+.btnLireVideo {
     margin-left: 40%;
     display: flex;
     justify-content: center;
@@ -35,22 +44,36 @@
 
 
 
-@media screen and (max-width: 425px) and (max-width: 500px){
-    .txtVideo{
+@media screen and (min-width: 425px) and (max-width: 500px) {
+    .txtVideo {
         flex-direction: column;
 
-        .btnVideo{
-            background-color: red;
-            padding-left: 10%;
+        .btnVideo {
+            padding-left: 0%;
         }
 
-        .btnLireVideo{
-            background-color: greenyellow;
-            margin-left: -20%;
+        .btnLireVideo {
+            margin-left: -7%;
+            margin-top: 6%;
         }
     }
 
-    .section1{
+    .section1 {
         background-position: right;
+    }
+
+    .btnNavbar {
+        display: none;
+    }
+
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between !important;
+    }
+
+    .txtSection1.d-flex.flex-column {
+        text-align: center;
     }
 }

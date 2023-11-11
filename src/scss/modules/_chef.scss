@@ -73,3 +73,25 @@
     }
     
 }
+
+@media screen and (min-width: 425px) and (max-width: 500px){
+    .contentChef {
+        flex-direction: column;
+    }
+
+    .chef1{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    .chef2{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    .chef3{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+}

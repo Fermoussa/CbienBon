@@ -59,3 +59,9 @@
 .carteIdentite{
     margin-bottom: 5%;
 }
+
+@media screen and (min-width: 425px) and (max-width: 500px){
+   .Testmonial{
+    display: none;
+   }
+}
