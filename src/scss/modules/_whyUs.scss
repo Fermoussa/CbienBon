@@ -60,3 +60,12 @@
         padding: 5%;
     }
 }
+
+@media screen and (max-width: 768px) and (max-width: 900px){
+    .contentCarteWhy {
+        margin-top: 2%;
+        flex-direction: column;
+        margin-bottom: 5%;
+        padding: 2%;
+    }
+}

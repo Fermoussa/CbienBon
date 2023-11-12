@@ -57,3 +57,37 @@
     }
 
 }
+
+
+@media screen and (max-width: 768px) and (max-width: 900px){
+    .contact {
+        padding-top: 15%;
+    }
+
+    .sousMap {
+        flex-direction: column;
+
+        .location {
+            width: 100%;
+            padding-top: 5%;
+        }
+    }
+
+    .contacter {
+        width: 100%;
+        padding-top: 8%;
+        padding-bottom: 3%;
+    }
+
+    .SendMessage {
+        width: 30%;
+        margin-left: 0%;
+    }
+
+    .ligneFormulaire {
+        margin-bottom: 2%;
+        margin-bottom: 6%;
+        flex-direction: row;
+    }
+
+}

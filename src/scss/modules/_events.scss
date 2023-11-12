@@ -84,3 +84,15 @@
         padding-bottom: 20%;
     }
 }
+
+@media screen and (max-width: 768px) and (max-width: 900px){
+    .carousel-indicators{
+        // background-color: red;
+        margin-left: 12% !important;
+        width: 80%;
+    }
+
+    .events{
+        padding-bottom: 10%;
+    }
+}

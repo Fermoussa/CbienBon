@@ -4,6 +4,11 @@
 
 }
 
+.navbar-toggler-icon {
+    background-color: $or;
+}
+
+
 // .CBIENBON{
 //     // background-color: beige;
 //     width: 30%;
@@ -14,3 +19,15 @@
 //     width: 30%;
 // }
 
+@media screen and (min-width: 425px) and (max-width: 500px) {
+
+    .navbar-collapse{
+        text-align: center;
+        padding-right: 160px;
+    
+        navbar-brand{
+            display: none;
+        }
+    }
+    
+}

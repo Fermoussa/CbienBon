@@ -103,3 +103,55 @@ footer{
     }
 
 }
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+    .elementFooter {
+        flex-direction: column;
+    }
+
+    .col3Footer {
+        padding-top: 8%;
+        width: 100%;
+        border-right: solid 1px black;
+        text-align: center;
+
+    }
+
+    .detailCol3 {
+        padding-left: 0%;
+    }
+
+    .TitreElemFooter{
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    .col4footer{
+        width: 100%;
+        text-align: center;
+
+        .detailCol4{
+            br{
+                display: none;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+
+    .sabonner{
+        display: none;
+    }
+    
+    .btn1{
+        display: none;
+    }
+
+    .position-absolute{
+        display: none;
+    }
+
+
+}

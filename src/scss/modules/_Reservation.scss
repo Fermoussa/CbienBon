@@ -63,3 +63,15 @@
         margin-bottom: 10%;
     }
 }
+
+@media screen and (max-width: 768px) and (max-width: 900px){
+    .ligneFormulaire {
+        margin-bottom: 2%;
+        margin-bottom: 6%;
+        flex-direction: column;
+    }
+    .btnForm {
+        width: 20%;
+        margin-bottom: 5%;
+    }
+}

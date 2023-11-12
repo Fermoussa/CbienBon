@@ -111,3 +111,19 @@
         
     }
 }
+
+@media screen and (max-width: 768px) and (max-width: 900px){
+    .ligne{
+        flex-direction: column;
+
+        .plat{
+            width: 100%;
+        }
+
+        .imgPlat{
+            height: 60%;
+            width: 70%;
+        }
+        
+    }
+}
